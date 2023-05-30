@@ -8,6 +8,7 @@ h2 {
 
 p {
   font-size: 22px;
+  text-align: center;
 }
 
 .hero {
@@ -30,10 +31,54 @@ p {
 }
 
 .hero img {
+  height: 200px;
+  width: 200px;
   margin: 0px;
   padding: 0px;
 }
 
 .hero p {
   font-size: 60px;
+}
+
+.daycare {
+  text-align: left;
+}
+
+.preschool {
+  text-align: left;
+}
+
+.training {
+  font-size: 20px;
+  text-align: center;
+}
+
+.loyalty {
+  text-align: left;
+}
+
+.intro-content {
+  margin: 0px;
+  padding: 0px 200px;
+}
+
+.daycare-content {
+  margin: 0px;
+  padding: 0px 200px;
+}
+
+.preschool-content {
+  margin: 0px;
+  padding: 0px 200px;
+}
+
+.rates-content {
+  margin: 0px;
+  padding: 0px 200px;
+}
+
+.loyalty-content {
+  margin: 0px;
+  padding: 0px 200px;
 }
