@@ -4,11 +4,23 @@ body {
 
 h2 {
   font-size: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
 }
 
 p {
   font-size: 22px;
   text-align: center;
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  font-size: 20px;
 }
 
 .hero {
@@ -26,8 +38,9 @@ p {
   font-size: 100px;
   font-weight: bold;
   line-height: 1;
-  margin: 0px;
+  margin: 20px 0px;
   padding: 0px;
+  font-family: Antonio;
 }
 
 .hero img {
@@ -52,6 +65,8 @@ p {
 .training {
   font-size: 20px;
   text-align: center;
+  margin: 0px;
+  opacity: 0.6;
 }
 
 .loyalty {
@@ -59,13 +74,30 @@ p {
 }
 
 .intro-content {
-  margin: 0px;
+  margin: 20px 0px;
   padding: 0px 200px;
 }
 
+.img {
+  height: 210px;
+  width: 230px;
+  border-radius: 10px;
+}
+
+.img-content {
+  padding: 0px 50px;
+  margin: 0px 0px 25px;
+}
+
 .daycare-content {
-  margin: 0px;
+  margin: 0px 0px 25px 0px;
   padding: 0px 200px;
+}
+
+.attention {
+  font-size: 18px;
+  opacity: 0.5;
+  margin: 0px 0px 15px 0px;
 }
 
 .preschool-content {
@@ -81,4 +113,20 @@ p {
 .loyalty-content {
   margin: 0px;
   padding: 0px 200px;
+}
+
+.features-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.features-content ul {
+  list-style: none;
+  text-align: center;
+}
+
+.list-img {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 2px;
 }
