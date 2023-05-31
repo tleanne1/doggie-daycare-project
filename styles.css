@@ -23,35 +23,75 @@ ul {
   font-size: 20px;
 }
 
-.hero {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(0, 52, 89) 0%,
-    rgb(0, 168, 232) 90%
-  );
-  text-align: center;
-  margin: 0px;
-  padding: 60px 20px;
+nav {
+  padding: 10px 0;
 }
 
-.hero h1 {
-  font-size: 100px;
-  font-weight: bold;
-  line-height: 1;
-  margin: 20px 0px;
+nav ul {
+  margin: 0px;
   padding: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222831;
+  transition: all 100 ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: #222831;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: all 150 ease-in-out;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 150px;
   font-family: Antonio;
 }
 
-.hero img {
-  height: 200px;
-  width: 200px;
-  margin: 0px;
-  padding: 0px;
+header h3 {
+  font-size: 60px;
 }
 
-.hero p {
-  font-size: 60px;
+header button {
+  padding: 10px 12px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f78536;
 }
 
 .daycare {
@@ -129,4 +169,17 @@ ul {
   width: 10px;
   height: 10px;
   margin-bottom: 2px;
+}
+
+.contact-box {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 100px;
+  padding: 40px 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
 }

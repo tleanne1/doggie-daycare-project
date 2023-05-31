@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,20 +16,38 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Antonio:wght@100;200;300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Gruppo&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Doggie Daycare Project</title>
   </head>
   <body>
-    <div class="hero">
-      <h1>Petapalooza</h1>
-      <img src="images/logo.png" alt="Logo" />
-      <p>Come. Sit. Play with us!</p>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <ul>
+          <li class="active">
+            <a href="index.html" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="#Daycare" title="Daycare">Daycare</a>
+          </li>
+          <li>
+            <a href="#Preschool" title="Preschool">Preschool</a>
+          </li>
+          <li>
+            <a href="#Rates" title="Rates">Rates</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+    <header>
+      <h1>Petapalooza</h1>
+      <h3>Come. Sit. Play with us!</h3>
+      <button>Reservations</button>
+    </header>
 
     <div class="intro-content">
       <p>
@@ -65,6 +83,7 @@
       </p>
     </div>
     <div class="daycare-content">
+      <a id="Daycare"></a>
       <h2>Doggie Daycare Evaluation</h2>
       <p class="daycare">
         Safety is our number one priority. In order to ensure their safety and
@@ -132,9 +151,10 @@
         pets who are not spayed or neutered, our Day board option will be
         available. Please contact the resort for additional information.
       </p>
-      <h4>View Our Rates ></h4>
+      <h4><a href="#Rates">View Our Rates ></a></h4>
     </div>
     <div class="preschool-content">
+      <a id="Preschool"></a>
       <h2>Puppy Preschool</h2>
       <p class="preschool">
         Socialization. Potty Training. Good Manners. FUN! Dogs between the ages
@@ -158,18 +178,27 @@
         <h4>We help teach puppy etiquitte through:</h4>
         <ul>
           <li>
+            <img src="images/pawprint.png" alt="pawprint" class="list-img" />
             Play sessions with other puppies to practice gentle play and
             socialization
           </li>
           <li>
+            <img src="images/pawprint.png" alt="pawprint" class="list-img" />
             Crate training and potty walks spread throughout the day to help
             with potty training and leash experience
           </li>
           <li>
+            <img src="images/pawprint.png" alt="pawprint" class="list-img" />
             Outside breaks at least 6 times a day for fresh air and to gain
             confidence in new surroundings
           </li>
-          <li>Interactive games and toys to develop problem-solving skills.</li>
+          <li>
+            <img
+              src="images/pawprint.png"
+              alt="pawprint"
+              class="list-img"
+            />Interactive games and toys to develop problem-solving skills.
+          </li>
         </ul>
       </div>
       <br />
@@ -216,9 +245,10 @@
         certified Trainers. >
       </p>
       <p class="training">Contact us to learn more about training services.</p>
-      <h4>View Our Rates ></h4>
+      <h4><a href="#Rates">View Our Rates ></a></h4>
     </div>
     <div class="rates-content">
+      <a id="Rates"></a>
       <h2>Our Rates</h2>
       <div class="features-content">
         <h4>Daycare</h4>
@@ -249,5 +279,30 @@
         rewards program is automatic.
       </p>
     </div>
+    <footer>
+      <div
+        class="contact-box justify-content-between mt-5 mb-3 d-none d-lg-block"
+      >
+        <div class="row">
+          <div class="col">
+            <h3 class="contact-description">Petapalooza</h3>
+            <p>T: (555) 555-5555</p>
+          </div>
+          <div class="col">
+            <h3 class="contact-description">Hours of Operation</h3>
+            <p>Monday - Sunday: 6:30am - 8:00pm</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">
+        This project was coded by Tracey, and it is
+        <a
+          href="https://github.com/tleanne1/my-developer-portfolio"
+          target="_blank"
+          title="GitHub Portfolio Project"
+          >open-sourced on Github.</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
