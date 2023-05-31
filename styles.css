@@ -45,9 +45,8 @@ nav a {
   transition: all 100 ease-in-out;
 }
 
-nav li.active a,
 nav a:hover {
-  color: var(--branding-color);
+  color: #f78536;
 }
 
 footer a {
@@ -61,7 +60,7 @@ img:hover {
 }
 
 header {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/header-image.jpg");
@@ -182,4 +181,109 @@ a {
   border-radius: 10px;
   text-align: center;
   color: #ffffff;
+}
+
+@media (max-width: 960px) {
+  header {
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("images/header-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0;
+  }
+
+  header h1 {
+    font-size: 60px;
+    font-family: Antonio;
+  }
+
+  header h3 {
+    font-size: 20px;
+  }
+
+  header button {
+    padding: 6px 8px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+  ul {
+    padding: 0px;
+    font-size: 12px;
+  }
+
+  .intro-content {
+    margin: 20px 0px;
+    padding: 0px 60px;
+  }
+
+  .daycare-content {
+    margin: 0px 0px 25px 0px;
+    padding: 0px 60px;
+  }
+
+  .preschool-content {
+    margin: 0px;
+    padding: 0px 60px;
+  }
+
+  .rates-content {
+    margin: 0px;
+    padding: 0px 60px;
+  }
+
+  .loyalty-content {
+    margin: 0px;
+    padding: 0px 60px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .list-img {
+    width: 6px;
+    height: 6px;
+    margin-bottom: 2px;
+  }
+
+  .attention {
+    font-size: 12px;
+    opacity: 0.5;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .training {
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    opacity: 0.6;
+  }
+
+  .open-source {
+    font-size: 7px;
+    margin-top: 5px;
+  }
 }
